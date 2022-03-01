@@ -1,0 +1,64 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	color: white;
+	background: #191919;
+	font-family: monospace;
+	font-size: 14px;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	z-index: 2;
+}
+h1 {
+	font-size: 18px;
+	margin-top: 0;
+}
+#settings {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	padding-top: 10px;
+}
+input {
+	margin: 5px 0;
+}
+fieldset>input {
+	width: 15vw;
+	min-width: 200px;
+}
+
+canvas {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 100vw;
+	max-height: 100vw;
+}
+
+footer {
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin: 10px;
+	opacity: 0.7;
+	font-size: 18px;
+}
+footer:hover {
+	opacity: 1;
+}
